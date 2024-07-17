@@ -14,7 +14,7 @@ function input() {
     <>
     <label htmlFor="name">Enter your name:</label>
     <input type="text" id='name' onChange={(e)=>checkInput(e)}/>
-    <h3>{name}</h3>
+    <p>{name}</p>
     </>
   )
 }
