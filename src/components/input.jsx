@@ -12,7 +12,7 @@ function input() {
   }
   return (
     <>
-    <label htmlFor="name">Enter your name:</label>
+    <p>Enter your name:</p>
     <input type="text" id='name' onChange={(e)=>checkInput(e)}/>
     <p>{name}</p>
     </>
